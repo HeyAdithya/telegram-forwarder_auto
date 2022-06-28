@@ -1,0 +1,10 @@
+version: version
+services:
+  worker:
+    build: .
+    environment:
+      APP_ID: $APP_ID
+      API_HASH: $API_HASH
+      FROM_CHANNEL: $FROM_CHANNEL
+      TO_CHANNEL: $TO_CHANNEL
+      SESSION: $SESSION
